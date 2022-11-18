@@ -20,8 +20,8 @@ function Nav() {
   return (
     <div>
       <div className={click ? "main-container" : ""} onClick={() => Close()} />
-      <nav className="navbar" onClick={(e) => e.stopPropagation()}>
-        <div className="nav-container">
+      <nav className="navbar " onClick={(e) => e.stopPropagation()}>
+        <div className="nav-container ">
           <NavLink exact to="/" className="nav-logo">
             <FontAwesomeIcon icon={faCode} />
             KAW Inc.
@@ -82,6 +82,7 @@ export default function NavBar() {
     <>
       <BrowserRouter>
         <Nav />
+        <hr />
         <div className="pages">
           <Routes>
             <Route index element={<Home />} />

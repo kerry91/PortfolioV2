@@ -3,7 +3,7 @@ import "./Pages.css";
 const Contact = () => {
   return (
     <>
-      <div class="about min-w-screen flex items-center justify-center px-5 py-40">
+      <div class="about min-w-screen flex items-center justify-center px-5 h-screen">
         <div class="rounded-lg shadow-xl bg-gray-900 text-white">
           <div class="border-b border-gray-800 px-8 py-3">
             <div class="inline-block w-3 h-3 mr-2 rounded-full bg-red-500"></div>
