@@ -61,7 +61,7 @@ function Nav() {
               </NavLink>
             </li>
             <li className="nav-item">
-             <a activeclassname="active" class="nav-links" href="https://kaw-cv.netlify.app" target="_blank" rel="noreferrer">CV</a>
+             <a activeclassname="active" class="nav-links" href="https://kaw-cv.netlify.app" rel="noreferrer">CV</a>
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
