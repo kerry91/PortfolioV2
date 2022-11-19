@@ -1,4 +1,5 @@
 import "./Pages.css";
+import Wcard from "../components/Wcard";
 
 const Work = () => {
   return (
@@ -17,26 +18,11 @@ const Work = () => {
           <div class="flex flex-wrap -m-4">
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
-                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                  </svg>
+                <div>
+                <Wcard
+                wCardtitle="Content Management System CRM"
+                wCarddescription="This is a CRM work in progress. It is made from HTML, UIKit CSS and JQuery JavaScript"/>
                 </div>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-                  Content Management System CRM
-                </h2>
-                <p class="leading-relaxed text-base">
-                  This is a CRM work in progress. It is made from HTML, UIKit
-                  CSS and JQuery JavaScript
-                </p>
                 <a
                   href="https://kaw-cms.netlify.app/"
                   class="mt-3 text-indigo-500 inline-flex items-center"
@@ -58,28 +44,10 @@ const Work = () => {
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
-                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <circle cx="6" cy="6" r="3"></circle>
-                    <circle cx="6" cy="18" r="3"></circle>
-                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-                  </svg>
-                </div>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-                  Fashion Landing Page
-                </h2>
-                <p class="leading-relaxed text-base">
-                  The landing page is made up of HTML and CSS. It was a project
-                  from the Bath Spa University course
-                </p>
+                  <Wcard 
+                  wCardtitle="Fashion Landing Page"
+                  wCarddescription="The landing page is made up of HTML and CSS. A project
+                  from the Bath Spa University course" />
                 <a
                   href="https://kaw-landing.netlify.app"
                   class="mt-3 text-indigo-500 inline-flex items-center"
@@ -101,27 +69,9 @@ const Work = () => {
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
-                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                    <circle cx="12" cy="7" r="4"></circle>
-                  </svg>
-                </div>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-                  Interactive Card Details
-                </h2>
-                <p class="leading-relaxed text-base">
-                  This is a Frontend Mentor project. It is made up of HTML,
-                  Bootstrap CSS and JavaScript
-                </p>
+                  <Wcard
+                  wCardtitle="Interactive Card Details"
+                  wCarddescription="This is a Frontend Mentor project. It is made up of React and Bootstrap CSS" />
                 <a
                   href="https://kaw-interactive-card-details.netlify.app/"
                   class="mt-3 text-indigo-500 inline-flex items-center"
@@ -143,26 +93,10 @@ const Work = () => {
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
-                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
-                  </svg>
-                </div>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-                  Interactive Rating
-                </h2>
-                <p class="leading-relaxed text-base">
-                  This is a Frontend Mentor project. It is made up of HTML, CSS
-                  and JavaScript
-                </p>
+                  <Wcard 
+                  wCardtitle="Interactive Rating" 
+                  wCarddescription=" This is a Frontend Mentor project. It is made up of HTML, CSS
+                  and JavaScript" />
                 <a
                   href="https://kaw-interactive-rating.netlify.app/"
                   class="mt-3 text-indigo-500 inline-flex items-center"
@@ -184,26 +118,10 @@ const Work = () => {
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
-                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
-                  </svg>
-                </div>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-                  Intro component with Signup Form
-                </h2>
-                <p class="leading-relaxed text-base">
-                  This is a Frontend Mentor project. It is made up of HTML,
-                  Bootstrap CSS and JavaScript
-                </p>
+                  <Wcard 
+                  wCardtitle="Intro component with Signup Form"
+                  wCarddescription="This is a Frontend Mentor project. It is made up of HTML,
+                  Bootstrap CSS and JavaScript" />
                 <a
                   href="https://kaw-intro-component.netlify.app/"
                   class="mt-3 text-indigo-500 inline-flex items-center"
@@ -225,26 +143,10 @@ const Work = () => {
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
-                <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                  </svg>
-                </div>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-                  FAQ Accordion
-                </h2>
-                <p class="leading-relaxed text-base">
-                  This is a Frontend Mentor project. This is made up of HTML,
-                  CSS and JavaScript
-                </p>
+                  <Wcard 
+                  wCardtitle="FAQ Accordion"
+                  wCarddescription="This is a Frontend Mentor project. This is made up of HTML,
+                  CSS and JavaScript" />
                 <a
                   href="https://kaw-faq-accordion.netlify.app/"
                   class="mt-3 text-indigo-500 inline-flex items-center"
