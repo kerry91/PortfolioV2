@@ -71,7 +71,7 @@ const Work = () => {
               <div class="border border-gray-300 p-6 rounded-lg">
                   <Wcard
                   wCardtitle="Interactive Card Details"
-                  wCarddescription="This is a Frontend Mentor project. It is made up of React and Bootstrap CSS" />
+                  wCarddescription="This is a Frontend Mentor project. It is made up of React, Redux and Bootstrap CSS" />
                 <a
                   href="https://kaw-interactive-card-details.netlify.app/"
                   class="mt-3 text-indigo-500 inline-flex items-center"
@@ -149,6 +149,30 @@ const Work = () => {
                   CSS and JavaScript" />
                 <a
                   href="https://kaw-faq-accordion.netlify.app/"
+                  class="mt-3 text-indigo-500 inline-flex items-center"
+                >
+                  Learn More
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+                        <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="border border-gray-300 p-6 rounded-lg">
+                  <Wcard 
+                  wCardtitle="Advice Generator"
+                  wCarddescription="This is a Frontend Mentor project. It is made up of React, Bulma CSS and uses the Advice Slip API" />
+                <a
+                  href="https://kaw-advice-generator.netlify.app"
                   class="mt-3 text-indigo-500 inline-flex items-center"
                 >
                   Learn More
