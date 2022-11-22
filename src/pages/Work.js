@@ -18,60 +18,10 @@ const Work = () => {
           <div class="flex flex-wrap -m-4">
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
-                <div>
                 <Wcard
-                wCardtitle="Content Management System CRM"
-                wCarddescription="This is a CRM work in progress. It is made from HTML, UIKit CSS and JQuery JavaScript"/>
-                </div>
-                <a
-                  href="https://kaw-cms.netlify.app/"
-                  class="mt-3 text-indigo-500 inline-flex items-center"
-                >
-                  Learn More
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
-              </div>
-            </div>
-            <div class="xl:w-1/3 md:w-1/2 p-4">
-              <div class="border border-gray-300 p-6 rounded-lg">
-                  <Wcard 
-                  wCardtitle="Fashion Landing Page"
-                  wCarddescription="The landing page is made up of HTML and CSS. A project
-                  from the Bath Spa University course" />
-                <a
-                  href="https://kaw-landing.netlify.app"
-                  class="mt-3 text-indigo-500 inline-flex items-center"
-                >
-                  Learn More
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
-              </div>
-            </div>
-            <div class="xl:w-1/3 md:w-1/2 p-4">
-              <div class="border border-gray-300 p-6 rounded-lg">
-                  <Wcard
                   wCardtitle="Interactive Card Details"
-                  wCarddescription="This is a Frontend Mentor project. It is made up of React, Redux and Bootstrap CSS" />
+                  wCarddescription="This project is made up of HTML React.js, Redux and Bootstrap.css"
+                />
                 <a
                   href="https://kaw-interactive-card-details.netlify.app/"
                   class="mt-3 text-indigo-500 inline-flex items-center"
@@ -93,10 +43,13 @@ const Work = () => {
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
-                  <Wcard 
-                  wCardtitle="Interactive Rating" 
-                  wCarddescription=" This is a Frontend Mentor project. It is made up of HTML, CSS
-                  and JavaScript" />
+                <Wcard
+                  wCardtitle="Interactive Rating"
+                  wCarddescription=" This project is made up of HTML, CSS
+                  and JavaScript"
+                />
+                <br />
+
                 <a
                   href="https://kaw-interactive-rating.netlify.app/"
                   class="mt-3 text-indigo-500 inline-flex items-center"
@@ -118,10 +71,11 @@ const Work = () => {
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
-                  <Wcard 
+                <Wcard
                   wCardtitle="Intro component with Signup Form"
-                  wCarddescription="This is a Frontend Mentor project. It is made up of HTML,
-                  Bootstrap CSS and JavaScript" />
+                  wCarddescription="This project is made up of HTML,
+                  Bootstrap CSS and JavaScript"
+                />
                 <a
                   href="https://kaw-intro-component.netlify.app/"
                   class="mt-3 text-indigo-500 inline-flex items-center"
@@ -143,12 +97,12 @@ const Work = () => {
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
-                  <Wcard 
-                  wCardtitle="FAQ Accordion"
-                  wCarddescription="This is a Frontend Mentor project. This is made up of HTML,
-                  CSS and JavaScript" />
+                <Wcard
+                  wCardtitle="Countries"
+                  wCarddescription="This project is made up of HTML, React.js and Tailwind.css and the REST Countries API"
+                />
                 <a
-                  href="https://kaw-faq-accordion.netlify.app/"
+                  href="https://kaw-countries.netlify.app"
                   class="mt-3 text-indigo-500 inline-flex items-center"
                 >
                   Learn More
@@ -168,9 +122,10 @@ const Work = () => {
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
-                  <Wcard 
+                <Wcard
                   wCardtitle="Advice Generator"
-                  wCarddescription="This is a Frontend Mentor project. It is made up of React, Bulma CSS and uses the Advice Slip API" />
+                  wCarddescription="This is a Frontend Mentor project. It is made up of HTML React.js, Bulma.css and uses the Advice Slip API"
+                />
                 <a
                   href="https://kaw-advice-generator.netlify.app"
                   class="mt-3 text-indigo-500 inline-flex items-center"
@@ -190,12 +145,12 @@ const Work = () => {
                 </a>
               </div>
             </div>
-                        <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
-                  <Wcard 
+                <Wcard
                   wCardtitle="Pokedex"
-                  wCarddescription="The Pokedex is made up from React, CSS and the PokeAPI" />
-                  <br/>
+                  wCarddescription="The Pokedex is made up from HTML React.js, CSS and the PokeAPI"
+                />
                 <a
                   href="https://kaw-pokedex.netlify.app"
                   class="mt-3 text-indigo-500 inline-flex items-center"
@@ -218,6 +173,9 @@ const Work = () => {
           </div>
         </div>
       </section>
+      <br />
+      <br />
+      <br />
     </>
   );
 };
