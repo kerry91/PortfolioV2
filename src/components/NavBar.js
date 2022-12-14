@@ -7,9 +7,6 @@ import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 import Home from "../pages/Home";
-import About from "../pages/About";
-import Contact from "../pages/Contact";
-import Work from "../pages/Work";
 
 function Nav() {
   const [click, setClick] = React.useState(false);
@@ -27,39 +24,6 @@ function Nav() {
             KAW Inc.
           </NavLink>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/about"
-                activeClassName="active"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                About
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/contact"
-                activeClassName="active"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                Contact Me
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/work"
-                activeClassName="active"
-                className="nav-links"
-                onClick={click ? handleClick : null}
-              >
-                My Work
-              </NavLink>
-            </li>
             <li className="nav-item">
              <a activeclassname="active" class="nav-links" href="https://kaw-cv.netlify.app" rel="noreferrer">CV</a>
             </li>
@@ -86,9 +50,6 @@ export default function NavBar() {
         <div className="pages">
           <Routes>
             <Route index element={<Home />} />
-            <Route path="About" element={<About />} />
-            <Route path="Contact" element={<Contact />} />
-            <Route path="Work" element={<Work />} />
           </Routes>
         </div>
       </BrowserRouter>

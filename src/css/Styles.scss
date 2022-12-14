@@ -1,3 +1,23 @@
+$bg-black: rgb(0,0,0,);
+$bg-white: rgb(255, 255, 255);
+$txt-black: rgb(0,0,0,);
+$txt-white: rgb(255, 255, 255);
+
+.Contact{
+  background-color: $bg-black;
+  color: $txt-white;
+}
+
+.Introduction{
+  background-color: $bg-black;
+  color: $txt-white;
+}
+
+.Work{
+  background-color: $bg-white;
+  color: $txt-black;
+}
+
 .navbar {
     background-color: transparent;
     height: 80px;

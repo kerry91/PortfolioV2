@@ -1,22 +1,18 @@
-import "./Pages.css";
-import Wcard from "../components/Wcard";
+import "./Work.scss";
+import Wcard from "./Wcard";
 
-const Work = () => {
+export default function Work() {
   return (
-    <>
+    <div class="Work">
       <section class="text-gray-700 body-font">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
-              Feel free to take a look around the work I have created
+        <div class="container px-5 py-8 mx-auto">
+          <div class="flex flex-wrap w-full mb-8 flex-col items-center text-center">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">
+              My Work
             </h1>
-            <p class="lg:w-1/2 w-full leading-relaxed text-base">
-              The different works are made up of HTML, CSS and JavaScript. Also
-              some frameworks.
-            </p>
           </div>
           <div class="flex flex-wrap -m-4">
-            <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="xl:w-1/3 md:w-1/2 sm:w-full p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
                 <Wcard
                   wCardtitle="Interactive Card Details"
@@ -24,9 +20,10 @@ const Work = () => {
                 />
                 <a
                   href="https://kaw-interactive-card-details.netlify.app/"
-                  class="mt-3 text-indigo-500 inline-flex items-center"
+                  target="_blank" rel="noreferrer"
+                  class="mt-3 text-indigo-500 inline-flex items-center" 
                 >
-                  Learn More
+                  Visit
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -41,7 +38,7 @@ const Work = () => {
                 </a>
               </div>
             </div>
-            <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="xl:w-1/3 md:w-1/2 sm:w-full p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
                 <Wcard
                   wCardtitle="Interactive Rating"
@@ -52,9 +49,10 @@ const Work = () => {
 
                 <a
                   href="https://kaw-interactive-rating.netlify.app/"
+                  target="_blank" rel="noreferrer"
                   class="mt-3 text-indigo-500 inline-flex items-center"
                 >
-                  Learn More
+                  Visit
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -69,7 +67,7 @@ const Work = () => {
                 </a>
               </div>
             </div>
-            <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="xl:w-1/3 md:w-1/2 sm:w-full p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
                 <Wcard
                   wCardtitle="Intro component with Signup Form"
@@ -78,9 +76,10 @@ const Work = () => {
                 />
                 <a
                   href="https://kaw-intro-component.netlify.app/"
+                  target="_blank" rel="noreferrer"
                   class="mt-3 text-indigo-500 inline-flex items-center"
                 >
-                  Learn More
+                  Visit
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -95,7 +94,7 @@ const Work = () => {
                 </a>
               </div>
             </div>
-            <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="xl:w-1/3 md:w-1/2 sm:w-full p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
                 <Wcard
                   wCardtitle="Countries"
@@ -103,9 +102,10 @@ const Work = () => {
                 />
                 <a
                   href="https://kaw-countries.netlify.app"
+                  target="_blank" rel="noreferrer"
                   class="mt-3 text-indigo-500 inline-flex items-center"
                 >
-                  Learn More
+                  Visit
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -120,7 +120,7 @@ const Work = () => {
                 </a>
               </div>
             </div>
-            <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="xl:w-1/3 md:w-1/2 sm:w-full p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
                 <Wcard
                   wCardtitle="Advice Generator"
@@ -128,9 +128,10 @@ const Work = () => {
                 />
                 <a
                   href="https://kaw-advice-generator.netlify.app"
+                  target="_blank" rel="noreferrer"
                   class="mt-3 text-indigo-500 inline-flex items-center"
                 >
-                  Learn More
+                  Visit
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -145,7 +146,7 @@ const Work = () => {
                 </a>
               </div>
             </div>
-            <div class="xl:w-1/3 md:w-1/2 p-4">
+            <div class="xl:w-1/3 md:w-1/2 sm:w-full p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
                 <Wcard
                   wCardtitle="Pokedex"
@@ -153,9 +154,10 @@ const Work = () => {
                 />
                 <a
                   href="https://kaw-pokedex.netlify.app"
+                  target="_blank" rel="noreferrer"
                   class="mt-3 text-indigo-500 inline-flex items-center"
                 >
-                  Learn More
+                  Visit
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -173,11 +175,6 @@ const Work = () => {
           </div>
         </div>
       </section>
-      <br />
-      <br />
-      <br />
-    </>
+    </div>
   );
-};
-
-export default Work;
+}
