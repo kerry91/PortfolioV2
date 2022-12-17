@@ -13,13 +13,14 @@ export default function Introduction() {
               <br/>
               <p>My goal is to become a full-stack developer. I am always looking to learn new languages and technologies.
               </p>
+              <br/>
+              <p>I am looking for a Junior/Graduate position to further my programming skills and knowledge.
+              </p>
             </div>
             <div class="justify-self-center">
             <img src={me} alt="me" class="w-80 h-96 rounded-lg" />
           </div>
           </div>
-
-          
        </div>   
     </div>
   );
