@@ -6,7 +6,7 @@ export default function Contact () {
               Contact Me
             </h1>
             <br/>
-            <p class="text-center"><button><a href="mailto:kerry91warnes@gmail.com" target="_blank" rel="noreferrer">Send me an email</a></button></p>
+            <p class="text-center"><button class="contact-btn"><a href="mailto:kerry91warnes@gmail.com" target="_blank" rel="noreferrer">Send me an email</a></button></p>
         </div>
     )
 }

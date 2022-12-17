@@ -1,4 +1,4 @@
-button {
+.contact-btn {
     text-decoration: none;
     border: none;
     font-size: 18px;
@@ -15,7 +15,7 @@ button {
     margin-bottom: 20px;
    }
    
-   button:hover {
+   .contact-btn:hover {
     animation: ani 8s linear infinite;
     border: none;
    }
@@ -30,8 +30,7 @@ button {
     }
    }
    
-   button:before {
-    content: '';
+   .contact-btn:before {
     position: absolute;
     top: -5px;
     left: -5px;
@@ -44,10 +43,10 @@ button {
     transition: 1s;
    }
    
-   button:hover::before {
+   .contact-btn:hover::before {
     filter: blur(20px);
    }
    
-   button:active {
+   .contact-btn:active {
     background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
    }
