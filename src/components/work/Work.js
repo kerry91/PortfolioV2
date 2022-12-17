@@ -1,5 +1,5 @@
 import "./Work.scss";
-import Wcard from "./Wcard";
+import WorkCard from "./WorkCard";
 
 export default function Work() {
   return (
@@ -14,14 +14,15 @@ export default function Work() {
           <div class="flex flex-wrap -m-4">
             <div class="xl:w-1/3 md:w-1/2 sm:w-full p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
-                <Wcard
-                  wCardtitle="Interactive Card Details"
-                  wCarddescription="This project is made up of HTML React.js, Redux and Bootstrap.css"
+                <WorkCard
+                  WorkCardtitle="Interactive Card Details"
+                  WorkCarddescription="This project is made up of HTML React.js, Redux and Bootstrap.css"
                 />
                 <a
                   href="https://kaw-interactive-card-details.netlify.app/"
-                  target="_blank" rel="noreferrer"
-                  class="mt-3 text-indigo-500 inline-flex items-center" 
+                  target="_blank"
+                  rel="noreferrer"
+                  class="mt-3 text-indigo-500 inline-flex items-center"
                 >
                   Visit
                   <svg
@@ -40,16 +41,17 @@ export default function Work() {
             </div>
             <div class="xl:w-1/3 md:w-1/2 sm:w-full p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
-                <Wcard
-                  wCardtitle="Interactive Rating"
-                  wCarddescription=" This project is made up of HTML, CSS
+                <WorkCard
+                  WorkCardtitle="Interactive Rating"
+                  WorkCarddescription=" This project is made up of HTML, CSS
                   and JavaScript"
                 />
                 <br />
 
                 <a
                   href="https://kaw-interactive-rating.netlify.app/"
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                   class="mt-3 text-indigo-500 inline-flex items-center"
                 >
                   Visit
@@ -69,14 +71,15 @@ export default function Work() {
             </div>
             <div class="xl:w-1/3 md:w-1/2 sm:w-full p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
-                <Wcard
-                  wCardtitle="Intro component with Signup Form"
-                  wCarddescription="This project is made up of HTML,
+                <WorkCard
+                  WorkCardtitle="Intro component with Signup Form"
+                  WorkCarddescription="This project is made up of HTML,
                   Bootstrap CSS and JavaScript"
                 />
                 <a
                   href="https://kaw-intro-component.netlify.app/"
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                   class="mt-3 text-indigo-500 inline-flex items-center"
                 >
                   Visit
@@ -96,13 +99,14 @@ export default function Work() {
             </div>
             <div class="xl:w-1/3 md:w-1/2 sm:w-full p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
-                <Wcard
-                  wCardtitle="Countries"
-                  wCarddescription="This project is made up of HTML, React.js and Tailwind.css and the REST Countries API"
+                <WorkCard
+                  WorkCardtitle="Countries"
+                  WorkCarddescription="This project is made up of HTML, React.js and Tailwind.css and the REST Countries API"
                 />
                 <a
                   href="https://kaw-countries.netlify.app"
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                   class="mt-3 text-indigo-500 inline-flex items-center"
                 >
                   Visit
@@ -122,13 +126,14 @@ export default function Work() {
             </div>
             <div class="xl:w-1/3 md:w-1/2 sm:w-full p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
-                <Wcard
-                  wCardtitle="Advice Generator"
-                  wCarddescription="This is a Frontend Mentor project. It is made up of HTML React.js, Bulma.css and uses the Advice Slip API"
+                <WorkCard
+                  WorkCardtitle="Advice Generator"
+                  WorkCarddescription="This is a Frontend Mentor project. It is made up of HTML React.js, Bulma.css and uses the Advice Slip API"
                 />
                 <a
                   href="https://kaw-advice-generator.netlify.app"
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                   class="mt-3 text-indigo-500 inline-flex items-center"
                 >
                   Visit
@@ -148,13 +153,14 @@ export default function Work() {
             </div>
             <div class="xl:w-1/3 md:w-1/2 sm:w-full p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
-                <Wcard
-                  wCardtitle="Pokedex"
-                  wCarddescription="The Pokedex is made up from HTML React.js, CSS and the PokeAPI"
+                <WorkCard
+                  WorkCardtitle="Pokedex"
+                  WorkCarddescription="The Pokedex is made up from HTML React.js, CSS and the PokeAPI"
                 />
                 <a
                   href="https://kaw-pokedex.netlify.app"
-                  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                   class="mt-3 text-indigo-500 inline-flex items-center"
                 >
                   Visit

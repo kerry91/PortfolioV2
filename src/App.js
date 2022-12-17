@@ -1,17 +1,14 @@
-import './css/Styles.scss';
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
+import "./css/Styles.scss";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
-function App () {
-  return(
+function App() {
+  return (
     <>
-    <NavBar />
-    
-    <Footer />
+      <NavBar />
+      <Footer />
     </>
-    
-  )
+  );
 }
-
 
 export default App;
