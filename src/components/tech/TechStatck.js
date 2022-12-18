@@ -2,6 +2,7 @@ import TechCard from "./card/TechCard";
 import buefy from "../../images/buefy.png";
 import materialize from "../../images/materialize.png";
 import sql from "../../images/sql.jpg";
+import jest from "../../images/jest.png"
 
 const TechStack = () => {
   return (
@@ -80,6 +81,9 @@ const TechStack = () => {
             </div>
             <div>
               <TechCard image="https://cdn.worldvectorlogo.com/logos/grunt.svg" />
+            </div>
+            <div>
+              <TechCard image={jest} />
             </div>
           </div>
         </div>
