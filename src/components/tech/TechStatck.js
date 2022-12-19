@@ -35,6 +35,9 @@ const TechStack = () => {
               <TechCard image="https://cdn.worldvectorlogo.com/logos/react-2.svg" />
             </div>
             <div>
+              <TechCard image="https://cdn.worldvectorlogo.com/logos/redux.svg" />
+            </div>
+            <div>
               <TechCard image="https://cdn.worldvectorlogo.com/logos/vue-9.svg" />
             </div>
             <div>
