@@ -10,7 +10,7 @@ const TechStack = () => {
       <div className="Tech">
         <div class="container px-5 py-8 mx-auto">
           <h1 class="sm:text-2xl text-2xl font-medium title-font text-center">
-            Tech Stack
+            Tech I Have Used
           </h1>
           <p className="text-center">
             Below are the different types of tech I have used in University,
@@ -42,6 +42,9 @@ const TechStack = () => {
             </div>
             <div>
               <TechCard image="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg" />
+            </div>
+            <div>
+              <TechCard image="https://cdn.worldvectorlogo.com/logos/typescript.svg" />
             </div>
             <div>
               <TechCard image="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg" />
@@ -87,6 +90,9 @@ const TechStack = () => {
             </div>
             <div>
               <TechCard image={jest} />
+            </div>
+            <div>
+              <TechCard image="https://cdn.worldvectorlogo.com/logos/docker.svg" />
             </div>
           </div>
         </div>

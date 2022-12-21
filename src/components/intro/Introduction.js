@@ -17,11 +17,9 @@ export default function Introduction() {
             </p>
             <br />
             <p>
-              I am looking for a Junior/Graduate position to further my
-              programming skills and knowledge.
+              I am looking for a Junior/Graduate position to further my skills and knowledge.
             </p>
             <br/>
-            <p>I also have a CV link which contains more details.</p>
           </div>
           <div class="justify-self-center">
             <img src={me} alt="me" class="w-80 h-96 rounded-lg" />
