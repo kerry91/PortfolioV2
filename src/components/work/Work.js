@@ -179,6 +179,33 @@ export default function Work() {
             <div class="xl:w-1/3 md:w-1/2 sm:w-full p-4">
               <div class="border border-gray-300 p-6 rounded-lg h-48">
                 <WorkCard
+                  WorkCardtitle="Bill Splitter"
+                  WorkCarddescription="This is a Coursera project. It is made up of AngularJS and CSS"
+                />
+                <a
+                  href="https://kaw-billsplitter.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="mt-3 text-indigo-500 inline-flex items-center"
+                >
+                  Visit
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    class="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="xl:w-1/3 md:w-1/2 sm:w-full p-4">
+              <div class="border border-gray-300 p-6 rounded-lg h-48">
+                <WorkCard
                   WorkCardtitle="Pokedex"
                   WorkCarddescription="The Pokedex is made up from React, CSS and the PokeAPI"
                 />
