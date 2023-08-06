@@ -28,10 +28,10 @@ function Nav() {
               <a
                 activeclassname="active"
                 class="nav-links"
-                href="https://kaw-cv.netlify.app"
+                href="https://github.com/kerry91"
                 rel="noreferrer"
               >
-                CV
+                GitHub
               </a>
             </li>
           </ul>
